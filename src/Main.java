@@ -13,11 +13,11 @@ public class Main {
 		registerClass(student, "Android");
 	}
 	
-	public static void checkGender(Student st){
-		System.out.println("Gender of this student is: " + st.getGender());
+	public static void checkGender(Student student){
+		System.out.println("Gender of this student is: " + student.getGender());
 	}
 	
-	public static void registerClass(Student st, String className){
-		System.out.println(st.getName() + "has registed to class " + className);
+	public static void registerClass(Student student, String className){
+		System.out.println(student.getName() + "has registed to class " + className);
 	}
 }
