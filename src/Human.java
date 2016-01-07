@@ -1,5 +1,5 @@
 
-public class Human extends Animals{
+public class Human extends Animal{
 	private String name;
 	private String dateOfBirth;
 	private String homeTown;

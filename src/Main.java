@@ -7,17 +7,17 @@ public class Main {
 	}
 	
 	public static void createStudent(){
-		Students st = new Students("male", 21, "Nguyen Duc Thinh", "09-10-1994", "Ha Long", "Ha Noi", 1676564864, "thinhndgc00458@fpt.edu.vn", "SE", "FPT University");
+		Student st = new Student("male", 21, "Nguyen Duc Thinh", "09-10-1994", "Ha Long", "Ha Noi", 1676564864, "thinhndgc00458@fpt.edu.vn", "SE", "FPT University");
 		System.out.println("Student " + st.getName() + "has created!");
 		checkGender(st);
 		classRegister(st, "Android");
 	}
 	
-	public static void checkGender(Students st){
+	public static void checkGender(Student st){
 		System.out.println("Gender of this student is: " + st.getGender());
 	}
 	
-	public static void classRegister(Students st, String className){
+	public static void classRegister(Student st, String className){
 		System.out.println(st.getName() + "has registed to class " + className);
 	}
 }
